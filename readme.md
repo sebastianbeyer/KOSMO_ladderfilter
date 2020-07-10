@@ -1,6 +1,6 @@
 A Kosmo version of the [Kassutronics transistor ladder filter](https://kassu2000.blogspot.com/2018/07/transistor-ladder-filter.html).
 
-![](./images/ready.jpg)
+![](./images/ready.jpg | width=400)
 
 Find the documentation here: (https://github.com/kassu/kassutronics/tree/master/documentation/Transistor%20Ladder%20Filter)
 
