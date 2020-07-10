@@ -1,0 +1,370 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7750 6750 0    50   ~ 0
+kosmo template
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5EE3E657
+P 4160 3900
+F 0 "H1" H 4260 3949 50  0000 L CNN
+F 1 "frequency" H 4260 3858 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Pot_Hole" H 4160 3900 50  0001 C CNN
+F 3 "~" H 4160 3900 50  0001 C CNN
+	1    4160 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5EE3EB31
+P 4160 4000
+F 0 "#PWR0101" H 4160 3750 50  0001 C CNN
+F 1 "GND" H 4235 3825 50  0000 R CNN
+F 2 "" H 4160 4000 50  0001 C CNN
+F 3 "" H 4160 4000 50  0001 C CNN
+	1    4160 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5EE3F975
+P 3030 3840
+F 0 "H4" H 3130 3889 50  0000 L CNN
+F 1 "resonance" H 3130 3798 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Pot_Hole" H 3030 3840 50  0001 C CNN
+F 3 "~" H 3030 3840 50  0001 C CNN
+	1    3030 3840
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5EE3F97B
+P 3030 3940
+F 0 "#PWR0103" H 3030 3690 50  0001 C CNN
+F 1 "GND" H 3105 3765 50  0000 R CNN
+F 2 "" H 3030 3940 50  0001 C CNN
+F 3 "" H 3030 3940 50  0001 C CNN
+	1    3030 3940
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 5EE3FE9B
+P 3560 3150
+F 0 "H5" H 3660 3199 50  0000 L CNN
+F 1 "drive" H 3660 3108 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Pot_Hole" H 3560 3150 50  0001 C CNN
+F 3 "~" H 3560 3150 50  0001 C CNN
+	1    3560 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5EE3FEA1
+P 3560 3250
+F 0 "#PWR0106" H 3560 3000 50  0001 C CNN
+F 1 "GND" H 3635 3075 50  0000 R CNN
+F 2 "" H 3560 3250 50  0001 C CNN
+F 3 "" H 3560 3250 50  0001 C CNN
+	1    3560 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5EE40EC7
+P 2495 2970
+F 0 "H3" H 2595 3019 50  0000 L CNN
+F 1 "cv amount" H 2595 2928 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Pot_Hole" H 2495 2970 50  0001 C CNN
+F 3 "~" H 2495 2970 50  0001 C CNN
+	1    2495 2970
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5EE40ECD
+P 2495 3070
+F 0 "#PWR0108" H 2495 2820 50  0001 C CNN
+F 1 "GND" H 2570 2895 50  0000 R CNN
+F 2 "" H 2495 3070 50  0001 C CNN
+F 3 "" H 2495 3070 50  0001 C CNN
+	1    2495 3070
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5EE431C7
+P 2260 5345
+F 0 "H2" H 2360 5394 50  0000 L CNN
+F 1 "audio out" H 2360 5303 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Jack_Hole" H 2260 5345 50  0001 C CNN
+F 3 "~" H 2260 5345 50  0001 C CNN
+	1    2260 5345
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5EE431CD
+P 2260 5445
+F 0 "#PWR0109" H 2260 5195 50  0001 C CNN
+F 1 "GND" H 2335 5270 50  0000 R CNN
+F 2 "" H 2260 5445 50  0001 C CNN
+F 3 "" H 2260 5445 50  0001 C CNN
+	1    2260 5445
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 5EE4AFD9
+P 3240 5315
+F 0 "H7" H 3340 5364 50  0000 L CNN
+F 1 "audio in" H 3340 5273 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Jack_Hole" H 3240 5315 50  0001 C CNN
+F 3 "~" H 3240 5315 50  0001 C CNN
+	1    3240 5315
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5EE4AFDF
+P 3240 5415
+F 0 "#PWR0110" H 3240 5165 50  0001 C CNN
+F 1 "GND" H 3315 5240 50  0000 R CNN
+F 2 "" H 3240 5415 50  0001 C CNN
+F 3 "" H 3240 5415 50  0001 C CNN
+	1    3240 5415
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 5EE4B398
+P 3240 5930
+F 0 "H8" H 3340 5979 50  0000 L CNN
+F 1 "cv" H 3340 5888 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Jack_Hole" H 3240 5930 50  0001 C CNN
+F 3 "~" H 3240 5930 50  0001 C CNN
+	1    3240 5930
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5EE4B39E
+P 3240 6030
+F 0 "#PWR0111" H 3240 5780 50  0001 C CNN
+F 1 "GND" H 3315 5855 50  0000 R CNN
+F 2 "" H 3240 6030 50  0001 C CNN
+F 3 "" H 3240 6030 50  0001 C CNN
+	1    3240 6030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 5EE4B931
+P 3195 4745
+F 0 "H6" H 3295 4794 50  0000 L CNN
+F 1 "voctin" H 3295 4703 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Jack_Hole" H 3195 4745 50  0001 C CNN
+F 3 "~" H 3195 4745 50  0001 C CNN
+	1    3195 4745
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5EE4B937
+P 3195 4845
+F 0 "#PWR0114" H 3195 4595 50  0001 C CNN
+F 1 "GND" H 3270 4670 50  0000 R CNN
+F 2 "" H 3195 4845 50  0001 C CNN
+F 3 "" H 3195 4845 50  0001 C CNN
+	1    3195 4845
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H10
+U 1 1 5EE3F093
+P 7860 2265
+F 0 "H10" H 7960 2314 50  0000 L CNN
+F 1 "mounting" H 7960 2223 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Panel_Mounting_Hole" H 7860 2265 50  0001 C CNN
+F 3 "~" H 7860 2265 50  0001 C CNN
+	1    7860 2265
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5EE3F099
+P 7860 2365
+F 0 "#PWR0104" H 7860 2115 50  0001 C CNN
+F 1 "GND" H 7935 2190 50  0000 R CNN
+F 2 "" H 7860 2365 50  0001 C CNN
+F 3 "" H 7860 2365 50  0001 C CNN
+	1    7860 2365
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H12
+U 1 1 5EE3F8EF
+P 8675 2295
+F 0 "H12" H 8775 2344 50  0000 L CNN
+F 1 "mounting" H 8775 2253 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Panel_Mounting_Hole" H 8675 2295 50  0001 C CNN
+F 3 "~" H 8675 2295 50  0001 C CNN
+	1    8675 2295
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5EE3F8F5
+P 8675 2395
+F 0 "#PWR0105" H 8675 2145 50  0001 C CNN
+F 1 "GND" H 8750 2220 50  0000 R CNN
+F 2 "" H 8675 2395 50  0001 C CNN
+F 3 "" H 8675 2395 50  0001 C CNN
+	1    8675 2395
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H11
+U 1 1 5EE3FB43
+P 7900 1545
+F 0 "H11" H 8000 1594 50  0000 L CNN
+F 1 "mounting" H 8000 1503 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Panel_Mounting_Hole" H 7900 1545 50  0001 C CNN
+F 3 "~" H 7900 1545 50  0001 C CNN
+	1    7900 1545
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5EE3FB49
+P 7900 1645
+F 0 "#PWR0112" H 7900 1395 50  0001 C CNN
+F 1 "GND" H 7975 1470 50  0000 R CNN
+F 2 "" H 7900 1645 50  0001 C CNN
+F 3 "" H 7900 1645 50  0001 C CNN
+	1    7900 1645
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H13
+U 1 1 5EE3FDAF
+P 8695 1500
+F 0 "H13" H 8795 1549 50  0000 L CNN
+F 1 "mounting" H 8795 1458 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Panel_Mounting_Hole" H 8695 1500 50  0001 C CNN
+F 3 "~" H 8695 1500 50  0001 C CNN
+	1    8695 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5EE3FDB5
+P 8695 1600
+F 0 "#PWR0113" H 8695 1350 50  0001 C CNN
+F 1 "GND" H 8770 1425 50  0000 R CNN
+F 2 "" H 8695 1600 50  0001 C CNN
+F 3 "" H 8695 1600 50  0001 C CNN
+	1    8695 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H9
+U 1 1 5EE401D3
+P 6935 3280
+F 0 "H9" H 7035 3329 50  0000 L CNN
+F 1 "voct trim" H 7035 3238 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Trimmer_Pot_Hole" H 6935 3280 50  0001 C CNN
+F 3 "~" H 6935 3280 50  0001 C CNN
+	1    6935 3280
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5EE401D9
+P 6935 3380
+F 0 "#PWR0115" H 6935 3130 50  0001 C CNN
+F 1 "GND" H 7010 3205 50  0000 R CNN
+F 2 "" H 6935 3380 50  0001 C CNN
+F 3 "" H 6935 3380 50  0001 C CNN
+	1    6935 3380
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H16
+U 1 1 5EE48054
+P 7850 3280
+F 0 "H16" H 7950 3329 50  0000 L CNN
+F 1 "cvamtrim" H 7950 3238 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Trimmer_Pot_Hole" H 7850 3280 50  0001 C CNN
+F 3 "~" H 7850 3280 50  0001 C CNN
+	1    7850 3280
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5EE4805A
+P 7850 3380
+F 0 "#PWR0107" H 7850 3130 50  0001 C CNN
+F 1 "GND" H 7925 3205 50  0000 R CNN
+F 2 "" H 7850 3380 50  0001 C CNN
+F 3 "" H 7850 3380 50  0001 C CNN
+	1    7850 3380
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H14
+U 1 1 5EE4956D
+P 6915 4040
+F 0 "H14" H 7015 4089 50  0000 L CNN
+F 1 "offsettrim" H 7015 3998 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Trimmer_Pot_Hole" H 6915 4040 50  0001 C CNN
+F 3 "~" H 6915 4040 50  0001 C CNN
+	1    6915 4040
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5EE49573
+P 6915 4140
+F 0 "#PWR0116" H 6915 3890 50  0001 C CNN
+F 1 "GND" H 6990 3965 50  0000 R CNN
+F 2 "" H 6915 4140 50  0001 C CNN
+F 3 "" H 6915 4140 50  0001 C CNN
+	1    6915 4140
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H15
+U 1 1 5EE49AB3
+P 7820 4045
+F 0 "H15" H 7920 4094 50  0000 L CNN
+F 1 "freqoffset trim" H 7920 4003 50  0000 L CNN
+F 2 "Kosmo_panel:Kosmo_Trimmer_Pot_Hole" H 7820 4045 50  0001 C CNN
+F 3 "~" H 7820 4045 50  0001 C CNN
+	1    7820 4045
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5EE49AB9
+P 7820 4145
+F 0 "#PWR0117" H 7820 3895 50  0001 C CNN
+F 1 "GND" H 7895 3970 50  0000 R CNN
+F 2 "" H 7820 4145 50  0001 C CNN
+F 3 "" H 7820 4145 50  0001 C CNN
+	1    7820 4145
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
